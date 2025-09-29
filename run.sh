@@ -1,4 +1,5 @@
-set -e  # Остановка при ошибках
+#!/bin/bash
+set -e
 
 echo "=== ETL процесс ==="
 echo
@@ -30,4 +31,4 @@ ORDER BY posts_cnt DESC
 LIMIT 10;"
 
 echo
-echo "To stop: docker-compose down"
+echo "Остановить: docker-compose down"
