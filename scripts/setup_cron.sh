@@ -1,4 +1,3 @@
-#!/bin/bash
 # Создаем crontab файл с переменными окружения
 cat > /etc/cron.d/etl-cron << EOF
 DB_HOST=${DB_HOST}
